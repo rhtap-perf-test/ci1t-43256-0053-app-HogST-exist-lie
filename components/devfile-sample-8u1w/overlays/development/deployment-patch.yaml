@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-8u1w
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0053-tenant/ci1t-43256-0053-app/devfile-sample-8u1w@sha256:be68f6357ddfd16279786f7b9c5dc96845987fd8bcdd479a5d00c3269c182f7e
+        name: my-nodejs
+        resources: {}
+status: {}
